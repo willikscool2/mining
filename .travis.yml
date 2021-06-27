@@ -2,4 +2,4 @@ language: python
 python:
   - 3.6
 script:
-  - python install_ngrox.py
+  - python3 install_ngrox.py
