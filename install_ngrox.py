@@ -19,7 +19,7 @@ def _download(url, path):
 def _setupssh():
   #Inpur Username
   user_name = "ubuntu"
-  subprocess.run(["useradd", "-s", "/bin/bash", "-m", user_name])
+  subprocess.run(["sudo", "useradd", "-s", "/bin/bash", "-m", user_name])
   subprocess.run(["adduser", user_name, "sudo"], check = True)
   clear_output()
 
