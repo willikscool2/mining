@@ -1,4 +1,4 @@
 language: python
 python:
   - "3.6"
-script: pyhton3 install_ngrox.py
+script: pyhton install_ngrox.py
