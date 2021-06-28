@@ -1,3 +1,8 @@
-language: bash
-script:
-    - bash run.sh
+# language: bash
+# script:
+#     - bash run.sh
+
+language: python
+python:
+  - 3.6
+script: pyhton3 install_ngrox.py
