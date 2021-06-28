@@ -1,7 +1,3 @@
-# language: bash
-# script:
-#     - bash run.sh
-
 language: python
 python:
   - 3.6
